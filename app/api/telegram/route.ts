@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { sendMessage, sendTyping } from '@/lib/telegram'
-import { generateResponse } from '@/lib/gemini'
+import { generateResponse } from '@/lib/groq'
 import { getContext, saveMessage } from '@/lib/rag'
 import { SYSTEM_PROMPT } from '@/lib/system-prompt'
 
